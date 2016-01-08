@@ -1,0 +1,14 @@
+{% extends "layouts/base.nunjucks" %}
+{% block content %}
+<table class="container">
+  <tr>
+    <td>
+      {% if sections %}
+        {% for section in sections %}
+          {% include "partials/"+section.name+".nunjucks" %}
+        {% endfor %}
+      {% endif %}
+    </td>
+  </tr>
+</table>
+{% endblock %}

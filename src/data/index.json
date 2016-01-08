@@ -1,0 +1,14 @@
+{
+    "settings" : {
+        "title" : "Modular Email Workflow",
+        "stylesheet" : "styles.css"
+    },
+    "sections" : [
+        {
+            "name" : "main-text",
+            "image" : "images/mew.png",
+            "title" : "Welcome",
+            "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit provident laudantium nesciunt. Nesciunt consequuntur quidem laborum eaque facere explicabo inventore hic natus voluptatem delectus dolores, beatae sint, magnam officia odio!"
+        }
+    ]
+}

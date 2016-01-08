@@ -1,0 +1,30 @@
+{
+    "paths" : {
+        "project" : {
+            "src" : "./src/",
+            "dest" : "./dist/"
+        },
+        "templating" : {
+            "all" : "./src/**/*.+(html|nunjucks)",
+            "src" : "./src/*.+(html|nunjucks)",
+            "dest" : "./dist/"
+        },
+        "data" : {
+            "src" : "./src/data/**/*.json"
+        },
+        "styles" : {
+            "src" : "./src/styles/**.*",
+            "dest" : "./dist/css"
+        },
+        "images" : {
+            "src" : "./src/images/**/*",
+            "dest" : "./dist/images/"
+        },
+        "exporting" : {
+            "dest" : "./exports/"
+        }
+    },
+    "deployment" : "rsync",
+    "remote_images_path" : "http://remote.images/path/here",
+    "autoprefixer" : ["last 2 version", "safari 5", "ie 8", "ie 9", "opera 12.1", "ios 6", "android 4"]
+}

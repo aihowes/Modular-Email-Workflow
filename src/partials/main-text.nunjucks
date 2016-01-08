@@ -1,0 +1,9 @@
+<table class="main-text">
+  <tr>
+    <td>
+      <img class="logo" src="{{ section.image if section.image else "https://placeholdit.imgix.net/~text?txtsize=38&txt=550%C3%97150&w=274&h=130" }}">
+      <h1>{{ section.title if section.title else "Errr, no section.title here" }}</h1>
+      {% if section.desc %}<p>{{ section.desc }}</p>{% endif %}
+    </td>
+  </tr>
+</table>

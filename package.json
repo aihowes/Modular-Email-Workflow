@@ -1,0 +1,47 @@
+{
+  "name": "modular-email-workflow",
+  "version": "1.0.0",
+  "description": "A modular email developement workflow using Gulp",
+  "author": "Alex Howes <alex@alexhowes.co.uk>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aihowes/modular-email-workflow"
+  },
+  "bugs": {
+    "url": "https://github.com/aihowes/modular-email-workflow/issues"
+  },
+  "keywords": [
+    "gulp",
+    "email",
+    "workflow"
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.1",
+    "gulp-data": "^1.2.0",
+    "gulp-dom": "^0.7.4",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-inline-css": "^3.0.0",
+    "gulp-mailgun": "0.0.7",
+    "gulp-notify": "^2.2.0",
+    "gulp-nunjucks-render": "^1.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-s3": "^0.3.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-zip": "^3.0.2",
+    "path": "^0.12.7",
+    "require-dir": "^0.3.0",
+    "rsyncwrapper": "^0.4.3",
+    "run-sequence": "^1.1.5",
+    "vinyl-ftp": "^0.4.5",
+    "yargs": "^3.31.0"
+  }
+}
