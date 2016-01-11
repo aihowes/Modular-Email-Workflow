@@ -7,15 +7,15 @@ MEW has a bunch of features that makes developing and testing your email templat
 | Feature | Summary |
 |---------|---------|
 | Sass support | Compile [Sass](http://sass-lang.com/) into CSS with ease, bringing support for variables, mixins and more. |
-| Autoprefixer | Prefix your CSS Automatically based on browser usage |
+| Autoprefixer | Prefix your CSS Automatically based on browser usage. |
 | Templating | Use [Nunjucks](https://mozilla.github.io/nunjucks/) to build layouts, partials, variable and more to make your template development modular. |
-| Image Minification | Reduce bloat: Minify and Losslessly compress your images |
-| Inlined CSS | Autumatically inline your CSS on the fly, avoiding any issues with email services stripping it out |
-| BrowserSync | Gone are the days of needing to refresh |
-| Sends | Sending your email using [Mailgun](https://www.mailgun.com/) |
-| Test | Send a test to your [Litmus](https://litmus.com/) Account (If you have one) |
-| Upload | Use a range of methods (S3, FTP, RSync) to upload all your work to your own hosting |
-| Zip | Zip your template for easy transporting |
+| Image Minification | Reduce bloat: Minify and Losslessly compress your images. |
+| Inlined CSS | Autumatically inline your CSS on the fly, avoiding any issues with email services stripping it out. |
+| BrowserSync | Gone are the days of needing to refresh. |
+| Sends | Send your email using [Mailgun](https://www.mailgun.com/) a fast and reliable email delivery service. |
+| Test | Send a test to your [Litmus](https://litmus.com/) Account (If you have one). |
+| Upload | Use a range of methods (S3, FTP, RSync) to upload all your work to your own hosting. |
+| Zip | Zip your template for easy transporting. |
 
 ## Installation
 MEW requires you to have [Node.js](https://nodejs.org/en/) and [Gulp.js](http://gulpjs.com/) installed. Follow the links to get those installed.
@@ -119,7 +119,7 @@ The next month comes along, all you'll need to do is duplicate the index.json, i
 MEW allows you to create more than one template per each repository. I'd recommend having a MEW repository for each client, that way you can re-use all your clients partials amongst their templates. You're also not limited to just one CSS file, so feel free to create a stylesheet for each template or template type. If you're using Sass, use Sass partials and import colours and grid systems.
 
 ## Thanks
-This project wouldn't be possible with the maintainers and creators of Gulp and the Gulp plugins used (there are a bunch of them). Thanks for the numerous amount of blog posts that helped too, specifically the [Automate Your Workflow](http://automateyourworkflow.com/) Book by Zell Liew.
+This project wouldn't be possible without the maintainers and creators of Gulp and the Gulp plugins used (there are a bunch of them). Thanks for the numerous amount of blog posts that helped too, specifically the [Automate Your Workflow](http://automateyourworkflow.com/) Book by Zell Liew.
 
 Also thanks to the other Email Automation Workflows available, feel free to check them out if this doesn't tickle your fancy. [Gulp Email Creator](https://github.com/darylldoyle/Gulp-Email-Creator) & [Grunt Email Workflow](https://github.com/leemunroe/grunt-email-workflow)
 
