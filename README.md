@@ -31,7 +31,7 @@ If the above fails try using `sudo`.
 ### Config - `config.json`
 A default `config.json` file has been provided within the project, simply replace values as necesary. You'll find configuration options for paths, what deployment/uploading method you want to use, Autoprefixer Browserlist, recipient and remote images path used when sending an email.
 
-### Secrets - `config.json`
+### Secrets - `secrets.json`
 As some tasks may require sensitive information such as passwords. You should store this data in `secrets.json`, this file should not be commit into your repository. An example version of this file is included in the project labeled as `secrets.example.json` - edit this file using your information and rename it to `secrets.json`.
 
 ### BrowserSync - `gulp browser-sync`
